@@ -1,0 +1,134 @@
+.projects-section {
+  position: relative;
+  z-index: 1;
+}
+
+.projects-section .section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 0 1rem 2rem;
+}
+
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.proj-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2rem;
+  background: var(--surface);
+  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Cyan shimmer on hover */
+.proj-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.proj-card:hover {
+  border-color: var(--cyan-border);
+  background: var(--surface2);
+  transform: translateY(-3px);
+}
+
+.proj-card:hover::before {
+  opacity: 1;
+}
+
+.proj-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.proj-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.proj-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.proj-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.stack-tag {
+  padding: 0.2rem 0.6rem;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  border-radius: 3px;
+}
+
+.proj-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--cyan);
+  text-decoration: none;
+  transition: gap 0.2s;
+}
+
+.proj-link:hover {
+  gap: 0.75rem;
+}
+
+.proj-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.proj-link-demo {
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border2);
+  padding-bottom: 1px;
+}
+
+.proj-link-demo:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .projects-section .section-inner {
+    padding: 1.5rem 0 1rem 2rem;
+  }
+
+  .proj-grid {
+    grid-template-columns: 1fr;
+  }
+}
