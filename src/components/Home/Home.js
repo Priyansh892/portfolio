@@ -29,7 +29,7 @@ const Home = () => {
             View Work
           </a>
           <a
-            href="https://drive.google.com/file/d/1_xbkNhGLfpjChzTEEkwUl62flVn9Xaac/view?usp=sharing"
+            href="https://drive.google.com/file/d/16fY8efurakTfShQKA2FHfjS1oqo4567n/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-ghost"
