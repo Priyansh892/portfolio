@@ -8,32 +8,16 @@ const PROJECTS = [
     desc: "Production-grade personalized PWA news platform. Redis caching delivers feeds in under 10ms. Helmet.js security + API rate limiting included.",
     stack: ["Angular 18", "Node.js", "MongoDB", "Redis", "GNews API"],
     link: "https://github.com/Priyansh892/RozanaNewsWebsite",
-    demo: null,
+    demo: "https://rozana-news-website.vercel.app",
   },
   {
     num: "Project 02",
-    title: "Pulzz",
-    desc: "Spotify-integrated music analytics platform. Improved insight discovery speed by 30% through optimized data visualization and Python-powered analysis.",
-    stack: ["Python", "JavaScript", "Spotify API", "Data Viz"],
-    link: "https://github.com/Priyansh892/Spotify-Data-Analysis",
-    demo: null,
+    title: "Gitlysis - AI GitHub Profile Analyzer",
+    desc: "AI-powered GitHub profile analyzer that generates developer personality reports, roasts, and interactive chat using Groq AI (Llama 3.3 70B) and live GitHub data.",
+    stack: ["React 18", "TypeScript", "Groq AI", "GitHub API", "Tailwind CSS"],
+    link: "https://github.com/Priyansh892/Github-analyser-app",
+    demo: "https://gitlysisbypriyansh.netlify.app",
   },
-  // {
-  //   num: "Project 03",
-  //   title: "ThirdSpace",
-  //   desc: "Mood-relaxing ambient sounds website. Clean HTML/CSS/JS with a focus on calming UX and atmospheric audio layering.",
-  //   stack: ["HTML", "CSS", "JavaScript"],
-  //   link: "https://github.com/Priyansh892/ThirdSpace---The-relaxing-sounds-website",
-  //   demo: null,
-  // },
-  // {
-  //   num: "Project 04",
-  //   title: "FoodyGeek",
-  //   desc: "Full-featured food ordering web app built with React.js. Includes cart management, menu filtering, and a clean ordering flow.",
-  //   stack: ["React.js", "JavaScript", "CSS"],
-  //   link: "https://github.com/Priyansh892/Canteen-Management-System-with-React",
-  //   demo: null,
-  // },
 ];
 
 const Projects = () => {
