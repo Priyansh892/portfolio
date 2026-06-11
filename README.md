@@ -3,7 +3,7 @@
 Personal portfolio website built with React.js, showcasing my work as a Full Stack Engineer with 2+ years of experience building production-grade web applications.
 
 ## Live Demo
-[priyansh-portfolio.vercel.app](https://priyansh-portfolio.vercel.app)
+[https://priyansh-sde.netlify.app/](https://priyansh-sde.netlify.app/)
 
 ## Built With
 - React 18
