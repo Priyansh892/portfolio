@@ -15,8 +15,8 @@ Personal portfolio website built with React.js, showcasing my work as a Full Sta
 ## Sections
 - **Home** - intro, quick stats
 - **About** - background, tech stack
-- **Experience** - work history at Frisome, Pepperfry, Impelsys
-- **Projects** - RozanaNews, Pulzz, ThirdSpace, FoodyGeek
+- **Experience** - work history at Digital Future of Education Pvt Ltd, Pepperfry, Impelsys
+- **Projects** - RozanaNews, Gitlysis
 - **Skills** - frontend, backend, cloud & tooling
 - **Contact** - contact form + social links
 
